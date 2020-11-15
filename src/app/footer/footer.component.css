@@ -1,26 +1,35 @@
-.example-spacer {
-    flex: 1 1 auto;
+.example-card {
+    max-width: 400px;
+    height: 100px;
+    margin-right: 3vw;
+    margin-left: 15vw;
+    margin-bottom:25vh
+    
   }
-  
- 
-  .head {
+  img{
+    width:400px
+  }
+  .example-header-image {
+    background-image: url('/assets/images/dev.jpg');
+    background-size: cover;
+    width: 100px;
+  }
+
+  .containerFooter{
     display: flex;
     align-items: center;
-    justify-content: center;
-    width: 80vw;
-    height: 20vh;
-    background-color: blanchedalmond;
-    margin-top: 1vh;
-   
-  
+    justify-content: space-between;
+    background-color: rgb(37, 25, 25);
+    width: 100vw;
+    height: 40vh;
   }
   h1{
-    font-size: 3rem;
+    font-size: 2vw;
+    margin-top: 5vh;
+    margin-right: 20vw;
+    color: aliceblue;
   }
-  .headicons{
-    margin-left: 10vw;
-  }
-  .icon{
-    margin-left: 10vw;
-    margin-right: 10px;
+  p{
+    color: aliceblue;
+    font-size: 1vw;
   }
